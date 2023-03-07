@@ -1,0 +1,36 @@
+.form-control{
+    margin-top: 30px;
+    align-items: center;
+    padding-left: 45px;
+}
+label{
+    display: inline-block;
+    margin:  10px 0;
+
+}
+input{
+    border: 1px solid #dedede;
+    border-radius: 6px;
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+
+    
+}
+
+.btn-form{
+    background-color: paleturquoise;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+    align-content: center;
+    
+}
+input:focus {
+    background-color: lightblue;
+    outline: none;
+  }
